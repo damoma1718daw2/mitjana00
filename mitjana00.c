@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+
 int main() {
 	int i=0;
 	float suma=0.0;
@@ -22,5 +23,6 @@ int main() {
 	}
 	mitjana=suma/numero_repeticions;
 	printf("La mitjana resultant és: %.2f\n",mitjana);	
+	printf("Operació finalitzada amb èxit\n");	
 	return 0;
 }
